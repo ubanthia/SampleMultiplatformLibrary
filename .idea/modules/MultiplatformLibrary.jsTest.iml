@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="MultiplatformLibrary:jsTest" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="multiplatform.poc" external.system.module.type="sourceSet" external.system.module.version="1.0.0" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JavaScript " allPlatforms="JS []" useProjectSettings="false" isTestModule="true" externalProjectId="MultiplatformLibrary" isHmppProject="true">
+        <dependsOnModuleNames>MultiplatformLibrary:commonTest</dependsOnModuleNames>
+        <additionalVisibleModuleNames>
+          <friend>MultiplatformLibrary:jsMain</friend>
+          <friend>MultiplatformLibrary:commonMain</friend>
+        </additionalVisibleModuleNames>
+        <sourceSets>
+          <sourceSet>MultiplatformLibrary.commonTest</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <externalSystemTestTasks>
+          <externalSystemTestTask>jsLegacyBrowserTest|:|jsLegacy|js</externalSystemTestTask>
+        </externalSystemTestTasks>
+        <testOutputPath>$MODULE_DIR$/../../build/js/packages/MultiplatformLibrary-js-legacy-test/kotlin/MultiplatformLibrary-js-legacy-test.js</testOutputPath>
+        <compilerSettings>
+          <option name="additionalArguments" value="-ir-output-name MultiplatformLibrary_test -output $MODULE_DIR$/../../build/js/packages/MultiplatformLibrary-js-legacy-test/kotlin/MultiplatformLibrary-js-legacy-test.js" />
+        </compilerSettings>
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="metaInfo" arg="true" />
+            <flagArg name="noStdlib" arg="true" />
+            <flagArg name="sourceMap" arg="true" />
+            <flagArg name="multiPlatform" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="main" arg="call" />
+            <stringArg name="moduleKind" arg="umd" />
+            <stringArg name="target" arg="v5" />
+            <stringArg name="apiVersion" arg="1.8" />
+            <stringArg name="languageVersion" arg="1.8" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="pluginClasspaths">
+              <args>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.8.21/b532e6495c5cb85a2f73a4db4ae98f292ea1d30f/kotlin-scripting-jvm-1.8.21.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.8.21/18a869ce1cc76c771d7e3f0a2604f1a32127b558/kotlin-scripting-common-1.8.21.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.21/43d50ab85bc7587adfe3dda3dbe579e5f8d51265/kotlin-stdlib-1.8.21.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.21/d749cd5ae25da36d06e5028785038e24f9d37976/kotlin-stdlib-common-1.8.21.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.8.21/bf43f76b6e29bdc09b6c8a4511a9118b0ab12b1f/kotlin-script-runtime-1.8.21.jar</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="pluginOptions" />
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../build/js/packages/MultiplatformLibrary-js-legacy-test/kotlin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/jsTest">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/jsTest/kotlin" type="kotlin-test" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/jsTest/resources" type="kotlin-test-resource" />
+    </content>
+    <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="MultiplatformLibrary.commonTest" scope="TEST" />
+    <orderEntry type="module" module-name="MultiplatformLibrary.jsMain" scope="TEST" />
+    <orderEntry type="module" module-name="MultiplatformLibrary.commonMain" scope="TEST" />
+  </component>
+  <component name="TestModuleProperties" production-module="MultiplatformLibrary.jsMain" />
+</module>

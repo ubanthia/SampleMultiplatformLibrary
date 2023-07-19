@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="MultiplatformLibrary:nativeTest" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="multiplatform.poc" external.system.module.type="sourceSet" external.system.module.version="1.0.0" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="Native (mingw_x64) " allPlatforms="Native []/Native [mingw_x64]" useProjectSettings="false" isTestModule="true" externalProjectId="MultiplatformLibrary" isHmppProject="true">
+        <dependsOnModuleNames>MultiplatformLibrary:commonTest</dependsOnModuleNames>
+        <additionalVisibleModuleNames>
+          <friend>MultiplatformLibrary:nativeMain</friend>
+          <friend>MultiplatformLibrary:commonMain</friend>
+        </additionalVisibleModuleNames>
+        <sourceSets>
+          <sourceSet>MultiplatformLibrary.commonTest</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <externalSystemTestTasks>
+          <externalSystemTestTask>nativeTest|:|native|native</externalSystemTestTask>
+        </externalSystemTestTasks>
+        <compilerSettings />
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="noendorsedlibs" arg="true" />
+            <flagArg name="multiPlatform" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="apiVersion" arg="1.8" />
+            <stringArg name="languageVersion" arg="1.8" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="pluginClasspaths" />
+            <arrayArg name="pluginOptions" />
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../build/classes/kotlin/native/test/klib" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/nativeTest">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/nativeTest/kotlin" type="kotlin-test" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/nativeTest/resources" type="kotlin-test-resource" />
+    </content>
+    <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="MultiplatformLibrary.commonTest" scope="TEST" />
+    <orderEntry type="module" module-name="MultiplatformLibrary.nativeMain" scope="TEST" />
+    <orderEntry type="module" module-name="MultiplatformLibrary.commonMain" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Kotlin/Native: stdlib" level="project" />
+    <orderEntry type="library" scope="TEST" name="Kotlin/Native: platform.builtin | mingw_x64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Kotlin/Native: platform.gdiplus | mingw_x64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Kotlin/Native: platform.iconv | mingw_x64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Kotlin/Native: platform.opengl32 | mingw_x64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Kotlin/Native: platform.posix | mingw_x64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Kotlin/Native: platform.windows | mingw_x64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Kotlin/Native: platform.winhttp | mingw_x64" level="project" />
+    <orderEntry type="library" scope="TEST" name="Kotlin/Native: platform.zlib | mingw_x64" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="MultiplatformLibrary.nativeMain" />
+</module>

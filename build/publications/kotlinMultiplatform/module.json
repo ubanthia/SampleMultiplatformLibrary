@@ -1,0 +1,240 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "multiplatform.poc",
+    "module": "MultiplatformLibrary",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MultiplatformLibrary-metadata-2.0.0.jar",
+          "url": "MultiplatformLibrary-2.0.0.jar",
+          "size": 3758,
+          "sha512": "e33473e140aaad0964fccb177b1d6d3b7a1907c58515442634a9e9bb2946a6898f46317a75381bf86bceb1ee9180bcacebbfe9f42bf985b745ecb33eed88caab",
+          "sha256": "d56860177dd2796a50adb6cf9d2483008b2db40b0cd4fddeb93f99fa09f00964",
+          "sha1": "e2924264bce5b2891391c46441839348893b0cca",
+          "md5": "3d58c60b4019fee447880ed3b92f20d4"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "MultiplatformLibrary-kotlin-2.0.0-sources.jar",
+          "url": "MultiplatformLibrary-2.0.0-sources.jar",
+          "size": 1111,
+          "sha512": "b15b31e05fb59a6b70047b11cd8905eea2dbe049fcdef07de1db2765a626691c751db5774f468979bd8efd15936f0674ef328e464118251446d7b1f97e7d73f5",
+          "sha256": "19553f4872a69e68610a78ea0e13c1904e0d24b2735c0649b4437b60b60d706b",
+          "sha1": "f11301ca7912464249d5c4092bcbfc4e8f2e6ae5",
+          "md5": "5a150b4db610b598acc3fd9bb1ba4ec0"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../MultiplatformLibrary-android-debug/2.0.0/MultiplatformLibrary-android-debug-2.0.0.module",
+        "group": "multiplatform.poc",
+        "module": "MultiplatformLibrary-android-debug",
+        "version": "2.0.0"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../MultiplatformLibrary-android-debug/2.0.0/MultiplatformLibrary-android-debug-2.0.0.module",
+        "group": "multiplatform.poc",
+        "module": "MultiplatformLibrary-android-debug",
+        "version": "2.0.0"
+      }
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../MultiplatformLibrary-android-debug/2.0.0/MultiplatformLibrary-android-debug-2.0.0.module",
+        "group": "multiplatform.poc",
+        "module": "MultiplatformLibrary-android-debug",
+        "version": "2.0.0"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../MultiplatformLibrary-android/2.0.0/MultiplatformLibrary-android-2.0.0.module",
+        "group": "multiplatform.poc",
+        "module": "MultiplatformLibrary-android",
+        "version": "2.0.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../MultiplatformLibrary-android/2.0.0/MultiplatformLibrary-android-2.0.0.module",
+        "group": "multiplatform.poc",
+        "module": "MultiplatformLibrary-android",
+        "version": "2.0.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../MultiplatformLibrary-android/2.0.0/MultiplatformLibrary-android-2.0.0.module",
+        "group": "multiplatform.poc",
+        "module": "MultiplatformLibrary-android",
+        "version": "2.0.0"
+      }
+    },
+    {
+      "name": "iosApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../MultiplatformLibrary-ios/2.0.0/MultiplatformLibrary-ios-2.0.0.module",
+        "group": "multiplatform.poc",
+        "module": "MultiplatformLibrary-ios",
+        "version": "2.0.0"
+      }
+    },
+    {
+      "name": "iosSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../MultiplatformLibrary-ios/2.0.0/MultiplatformLibrary-ios-2.0.0.module",
+        "group": "multiplatform.poc",
+        "module": "MultiplatformLibrary-ios",
+        "version": "2.0.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../MultiplatformLibrary-jvm/2.0.0/MultiplatformLibrary-jvm-2.0.0.module",
+        "group": "multiplatform.poc",
+        "module": "MultiplatformLibrary-jvm",
+        "version": "2.0.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../MultiplatformLibrary-jvm/2.0.0/MultiplatformLibrary-jvm-2.0.0.module",
+        "group": "multiplatform.poc",
+        "module": "MultiplatformLibrary-jvm",
+        "version": "2.0.0"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../MultiplatformLibrary-jvm/2.0.0/MultiplatformLibrary-jvm-2.0.0.module",
+        "group": "multiplatform.poc",
+        "module": "MultiplatformLibrary-jvm",
+        "version": "2.0.0"
+      }
+    }
+  ]
+}

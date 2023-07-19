@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../MultiplatformLibrary/2.0.0/MultiplatformLibrary-2.0.0.module",
+    "group": "multiplatform.poc",
+    "module": "MultiplatformLibrary",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MultiplatformLibrary-debug.aar",
+          "url": "MultiplatformLibrary-android-debug-2.0.0.aar",
+          "size": 3881,
+          "sha512": "69c21617ce3f9026418ec11a727eff95fea337413eda0eb9b3182c93c53a1db1649ebccb01cbd37ab7b9876218ec58189e277deaabd7e4074350ac705132cdb0",
+          "sha256": "b1d797de7d87d6fc8d3ff83e49e8be7ab76fa81fa435b6826934cdd11470d48c",
+          "sha1": "d43da9cdb6141df826d04e424de58a3d87878be0",
+          "md5": "290b9bcb430e9d43ead94318ded21665"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "MultiplatformLibrary-debug.aar",
+          "url": "MultiplatformLibrary-android-debug-2.0.0.aar",
+          "size": 3881,
+          "sha512": "69c21617ce3f9026418ec11a727eff95fea337413eda0eb9b3182c93c53a1db1649ebccb01cbd37ab7b9876218ec58189e277deaabd7e4074350ac705132cdb0",
+          "sha256": "b1d797de7d87d6fc8d3ff83e49e8be7ab76fa81fa435b6826934cdd11470d48c",
+          "sha1": "d43da9cdb6141df826d04e424de58a3d87878be0",
+          "md5": "290b9bcb430e9d43ead94318ded21665"
+        }
+      ]
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "MultiplatformLibrary-android-debug-2.0.0-sources.jar",
+          "url": "MultiplatformLibrary-android-debug-2.0.0-sources.jar",
+          "size": 2131,
+          "sha512": "7f3a68561239a44e996d90c2ac8fd1c0880e186baaa2a07610b9c69010fefa211a860bbaffdcffa887bcabf4bfd7c4af2e3327633a1108b2dde80e5857801add",
+          "sha256": "0b70b42f0ad7e2b184506588a8d7f25e2e593be17174bd04cf752c99934ca4cf",
+          "sha1": "9031e8b02bc839c88a4c157f92a7c9fcf4e28e1f",
+          "md5": "986fddcd3de83e6e587073c78aaa8dd0"
+        }
+      ]
+    }
+  ]
+}

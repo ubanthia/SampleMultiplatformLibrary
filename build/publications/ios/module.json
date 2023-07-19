@@ -1,0 +1,71 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../MultiplatformLibrary/2.0.0/MultiplatformLibrary-2.0.0.module",
+    "group": "multiplatform.poc",
+    "module": "MultiplatformLibrary",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MultiplatformLibrary.klib",
+          "url": "MultiplatformLibrary-ios-2.0.0.klib",
+          "size": 8202,
+          "sha512": "6a76c7c98d0d3317fd7d6bb67a77f014f4afecd187e8950ced9bb646a21097f1754bdc82ca32d341c9fe89feeb5c376338f496198f0ea7e92991b83a84bd4ab1",
+          "sha256": "fc1e35f04d2924d9ce83a529efb3ce3788e6097955f1f6731f7f1e6505197fae",
+          "sha1": "6febad355b0b0c0bbe6254d18936658d6a657ea4",
+          "md5": "76f295755fc2e33bbb70c1c1ad4fe9c3"
+        }
+      ]
+    },
+    {
+      "name": "iosSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "MultiplatformLibrary-ios-2.0.0-sources.jar",
+          "url": "MultiplatformLibrary-ios-2.0.0-sources.jar",
+          "size": 1654,
+          "sha512": "0a9b4f9a746cfbbe00a9da8cc345b1c25bfd97c5802c7393796c323fc6f6e9e6a41e3ef880499df696d9a73d80c176d82b1ecb32ee96b89dc97c8f04e31378ef",
+          "sha256": "4f3e4ff6a8b176a46ec3e120c266438830d944f0bcfd505534d5d581c53d2d36",
+          "sha1": "d44f191ec2f084cf66e4fedbe957a010e1d9755b",
+          "md5": "58523d804a6d3484d9b0558ecd03a2ec"
+        }
+      ]
+    }
+  ]
+}
